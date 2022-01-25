@@ -5,7 +5,7 @@ Analyzing Tweets for fun and profit.
 - Clone the repository
 - In the root folder, rename "SAMPLE_CONNECTION_INFO.csv" to "CONNECTION_INFO.csv"
 - Fill your Twitter API credentials into CONNECTION_INFO.csv
-- Get the tweet dataset (instructions for this coming soon, for now ask Juan)
+- Download the [Twitter Sentiment Analysis Training Corpus](http://thinknook.com/twitter-sentiment-analysis-training-corpus-dataset-2012-09-22/) - click the link that reads "Twitter Sentiment Analysis Dataset"
 - In twitter.ipynb, fill in your own systems FILE_PATH
 - You may need pandas >1.3.0. Full environment list coming soon
 - Run twitter.ipynb
