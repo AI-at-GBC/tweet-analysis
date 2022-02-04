@@ -3,12 +3,12 @@ Analyzing Tweets for fun and profit.
 
 ## Setup Instructions
 - Clone the repository
-- In the root folder, rename "SAMPLE_CONNECTION_INFO.csv" to "CONNECTION_INFO.csv"
-- Fill your Twitter API credentials into CONNECTION_INFO.csv
+- In the root folder, rename "connection_info_example.csv" to "connection_info.csv"
+- Fill your Twitter API credentials into connection_info.csv
 - Download the [Twitter Sentiment Analysis Training Corpus](http://thinknook.com/twitter-sentiment-analysis-training-corpus-dataset-2012-09-22/) - click the link that reads "Twitter Sentiment Analysis Dataset"
-- In twitter.ipynb, fill in your own systems FILE_PATH
-- You may need pandas >1.3.0. Full environment list coming soon
-- Run twitter.ipynb
+- Either use the model.h5 found in ./neural_networks, or use one of the notebooks in there to build your own.
+- In get_positive_tweets.ipynb, fill in your own systems FILE_PATH
+- Run get_positive_tweets.ipynb
 
 ## Contributing
 To submit changes to this repo, please do the following steps:
