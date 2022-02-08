@@ -1,13 +1,15 @@
-# tweet-analysis
-Analyzing Tweets for fun and profit.
+# Twitter Bubble-Maker
+## _Only See Tweets that Agree With You_
+Browsing Twitter can be difficult, because people criticize the things you like. So, only look at positive tweets!
+
+For our Deep Learning 1 class, we built a model to classify whether the sentiment of a tweet is positive or negative, filter out the negative tweets, change their sentiment to positive, and then present only positive tweets.
 
 ## Setup Instructions
 - Clone the repository
 - In the root folder, rename "connection_info_example.csv" to "connection_info.csv"
 - Fill your Twitter API credentials into connection_info.csv
 - Download the [Twitter Sentiment Analysis Training Corpus](http://thinknook.com/twitter-sentiment-analysis-training-corpus-dataset-2012-09-22/) - click the link that reads "Twitter Sentiment Analysis Dataset"
-- Either use the model.h5 found in ./neural_networks, or use one of the notebooks in there to build your own.
-- In get_positive_tweets.ipynb, fill in your own systems FILE_PATH
+- In get_positive_tweets.ipynb, fill in your own systems FILE_PATH and the query you want to search Twitter for into "query"
 - Run get_positive_tweets.ipynb
 
 ## Contributing
